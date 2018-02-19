@@ -9,8 +9,9 @@ def line(array)
     array.each do |i|
       line << "#{i}"
     end
+    puts line
   end
-  puts line
+
 end
 
 
