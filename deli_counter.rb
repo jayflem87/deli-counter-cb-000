@@ -2,11 +2,11 @@
 katz_deli = []
 
 def line(array)
-  line = ""
+  line = "The line is currently: "
   if array.length == 0
     puts "The line is currently empty."
   else
-
+    
     puts array
   end
 end
