@@ -7,7 +7,7 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each do |i|
-      line << array.index[i]"#{i }"
+      line << array.index(i) "#{i }"
     end
     puts line
   end
