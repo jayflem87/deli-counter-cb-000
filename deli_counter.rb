@@ -13,9 +13,6 @@ def line(array)
   puts line
 end
 
-ary.each do |i|
-   puts i
-end
 
 
 def take_a_number(katz_deli, name)
