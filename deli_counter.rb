@@ -10,6 +10,7 @@ def line(array)
       line << "#{[i + 1]}. #{array[i]}"
     end
   end
+  puts line
 end
 
 ary.each do |i|
